@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DE7249266A16AA00AB0BA7 /* RotateMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE7248266A16AA00AB0BA7 /* RotateMapApp.swift */; };
+		66DE724B266A16AA00AB0BA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE724A266A16AA00AB0BA7 /* ContentView.swift */; };
+		66DE724D266A16AD00AB0BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DE724C266A16AD00AB0BA7 /* Assets.xcassets */; };
+		66DE7250266A16AD00AB0BA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DE724F266A16AD00AB0BA7 /* Preview Assets.xcassets */; };
+		66DE725B266A16AD00AB0BA7 /* RotateMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE725A266A16AD00AB0BA7 /* RotateMapTests.swift */; };
+		66DE7266266A16AD00AB0BA7 /* RotateMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE7265266A16AD00AB0BA7 /* RotateMapUITests.swift */; };
+		66DE7274266A170500AB0BA7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE7273266A170500AB0BA7 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DE7257266A16AD00AB0BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DE723D266A16AA00AB0BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DE7244266A16AA00AB0BA7;
+			remoteInfo = RotateMap;
+		};
+		66DE7262266A16AD00AB0BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DE723D266A16AA00AB0BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DE7244266A16AA00AB0BA7;
+			remoteInfo = RotateMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DE7245266A16AA00AB0BA7 /* RotateMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DE7248266A16AA00AB0BA7 /* RotateMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMapApp.swift; sourceTree = "<group>"; };
+		66DE724A266A16AA00AB0BA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66DE724C266A16AD00AB0BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66DE724F266A16AD00AB0BA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66DE7251266A16AD00AB0BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DE7256266A16AD00AB0BA7 /* RotateMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DE725A266A16AD00AB0BA7 /* RotateMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMapTests.swift; sourceTree = "<group>"; };
+		66DE725C266A16AD00AB0BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DE7261266A16AD00AB0BA7 /* RotateMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DE7265266A16AD00AB0BA7 /* RotateMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateMapUITests.swift; sourceTree = "<group>"; };
+		66DE7267266A16AD00AB0BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DE7273266A170500AB0BA7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DE7242266A16AA00AB0BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE7253266A16AD00AB0BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE725E266A16AD00AB0BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DE723C266A16AA00AB0BA7 = {
+			isa = PBXGroup;
+			children = (
+				66DE7247266A16AA00AB0BA7 /* RotateMap */,
+				66DE7259266A16AD00AB0BA7 /* RotateMapTests */,
+				66DE7264266A16AD00AB0BA7 /* RotateMapUITests */,
+				66DE7246266A16AA00AB0BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DE7246266A16AA00AB0BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DE7245266A16AA00AB0BA7 /* RotateMap.app */,
+				66DE7256266A16AD00AB0BA7 /* RotateMapTests.xctest */,
+				66DE7261266A16AD00AB0BA7 /* RotateMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DE7247266A16AA00AB0BA7 /* RotateMap */ = {
+			isa = PBXGroup;
+			children = (
+				66DE7248266A16AA00AB0BA7 /* RotateMapApp.swift */,
+				66DE7273266A170500AB0BA7 /* LocationManager.swift */,
+				66DE724A266A16AA00AB0BA7 /* ContentView.swift */,
+				66DE724C266A16AD00AB0BA7 /* Assets.xcassets */,
+				66DE7251266A16AD00AB0BA7 /* Info.plist */,
+				66DE724E266A16AD00AB0BA7 /* Preview Content */,
+			);
+			path = RotateMap;
+			sourceTree = "<group>";
+		};
+		66DE724E266A16AD00AB0BA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66DE724F266A16AD00AB0BA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66DE7259266A16AD00AB0BA7 /* RotateMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DE725A266A16AD00AB0BA7 /* RotateMapTests.swift */,
+				66DE725C266A16AD00AB0BA7 /* Info.plist */,
+			);
+			path = RotateMapTests;
+			sourceTree = "<group>";
+		};
+		66DE7264266A16AD00AB0BA7 /* RotateMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66DE7265266A16AD00AB0BA7 /* RotateMapUITests.swift */,
+				66DE7267266A16AD00AB0BA7 /* Info.plist */,
+			);
+			path = RotateMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DE7244266A16AA00AB0BA7 /* RotateMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DE726A266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMap" */;
+			buildPhases = (
+				66DE7241266A16AA00AB0BA7 /* Sources */,
+				66DE7242266A16AA00AB0BA7 /* Frameworks */,
+				66DE7243266A16AA00AB0BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateMap;
+			productName = RotateMap;
+			productReference = 66DE7245266A16AA00AB0BA7 /* RotateMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66DE7255266A16AD00AB0BA7 /* RotateMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DE726D266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMapTests" */;
+			buildPhases = (
+				66DE7252266A16AD00AB0BA7 /* Sources */,
+				66DE7253266A16AD00AB0BA7 /* Frameworks */,
+				66DE7254266A16AD00AB0BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DE7258266A16AD00AB0BA7 /* PBXTargetDependency */,
+			);
+			name = RotateMapTests;
+			productName = RotateMapTests;
+			productReference = 66DE7256266A16AD00AB0BA7 /* RotateMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66DE7260266A16AD00AB0BA7 /* RotateMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DE7270266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMapUITests" */;
+			buildPhases = (
+				66DE725D266A16AD00AB0BA7 /* Sources */,
+				66DE725E266A16AD00AB0BA7 /* Frameworks */,
+				66DE725F266A16AD00AB0BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DE7263266A16AD00AB0BA7 /* PBXTargetDependency */,
+			);
+			name = RotateMapUITests;
+			productName = RotateMapUITests;
+			productReference = 66DE7261266A16AD00AB0BA7 /* RotateMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DE723D266A16AA00AB0BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					66DE7244266A16AA00AB0BA7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					66DE7255266A16AD00AB0BA7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 66DE7244266A16AA00AB0BA7;
+					};
+					66DE7260266A16AD00AB0BA7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 66DE7244266A16AA00AB0BA7;
+					};
+				};
+			};
+			buildConfigurationList = 66DE7240266A16AA00AB0BA7 /* Build configuration list for PBXProject "RotateMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DE723C266A16AA00AB0BA7;
+			productRefGroup = 66DE7246266A16AA00AB0BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DE7244266A16AA00AB0BA7 /* RotateMap */,
+				66DE7255266A16AD00AB0BA7 /* RotateMapTests */,
+				66DE7260266A16AD00AB0BA7 /* RotateMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DE7243266A16AA00AB0BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DE7250266A16AD00AB0BA7 /* Preview Assets.xcassets in Resources */,
+				66DE724D266A16AD00AB0BA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE7254266A16AD00AB0BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE725F266A16AD00AB0BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DE7241266A16AA00AB0BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DE724B266A16AA00AB0BA7 /* ContentView.swift in Sources */,
+				66DE7249266A16AA00AB0BA7 /* RotateMapApp.swift in Sources */,
+				66DE7274266A170500AB0BA7 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE7252266A16AD00AB0BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DE725B266A16AD00AB0BA7 /* RotateMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DE725D266A16AD00AB0BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DE7266266A16AD00AB0BA7 /* RotateMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DE7258266A16AD00AB0BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DE7244266A16AA00AB0BA7 /* RotateMap */;
+			targetProxy = 66DE7257266A16AD00AB0BA7 /* PBXContainerItemProxy */;
+		};
+		66DE7263266A16AD00AB0BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DE7244266A16AA00AB0BA7 /* RotateMap */;
+			targetProxy = 66DE7262266A16AD00AB0BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66DE7268266A16AD00AB0BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66DE7269266A16AD00AB0BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DE726B266A16AD00AB0BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RotateMap/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RotateMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DE726C266A16AD00AB0BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RotateMap/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RotateMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66DE726E266A16AD00AB0BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = RotateMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateMap.app/RotateMap";
+			};
+			name = Debug;
+		};
+		66DE726F266A16AD00AB0BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = RotateMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateMap.app/RotateMap";
+			};
+			name = Release;
+		};
+		66DE7271266A16AD00AB0BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = RotateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotateMap;
+			};
+			name = Debug;
+		};
+		66DE7272266A16AD00AB0BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6V36P2Q3X;
+				INFOPLIST_FILE = RotateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "chi-haru.RotateMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotateMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DE7240266A16AA00AB0BA7 /* Build configuration list for PBXProject "RotateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DE7268266A16AD00AB0BA7 /* Debug */,
+				66DE7269266A16AD00AB0BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DE726A266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DE726B266A16AD00AB0BA7 /* Debug */,
+				66DE726C266A16AD00AB0BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DE726D266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DE726E266A16AD00AB0BA7 /* Debug */,
+				66DE726F266A16AD00AB0BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DE7270266A16AD00AB0BA7 /* Build configuration list for PBXNativeTarget "RotateMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DE7271266A16AD00AB0BA7 /* Debug */,
+				66DE7272266A16AD00AB0BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DE723D266A16AA00AB0BA7 /* Project object */;
+}

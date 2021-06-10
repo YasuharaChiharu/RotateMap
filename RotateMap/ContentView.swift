@@ -11,18 +11,19 @@ import MapKit
 struct ContentView: View {
     
     @ObservedObject var manager = LocationManager()
+    @State var region = MKCoordinateRegion()
     @State var trackingMode = MapUserTrackingMode.follow
     
     var body: some View {
-        let latitude = $manager.region.center.latitude.wrappedValue
-        let longitude = $manager.region.center.longitude.wrappedValue
-        let heading = $manager.heading.wrappedValue
+        let heading   = $manager.heading.wrappedValue
+        let latitude  = $region.center.latitude.wrappedValue
+        let longitude = $region.center.longitude.wrappedValue
 
         VStack{
             Text("緯度：\(latitude) 経度： \(longitude)")
             Text("北方向: \(heading)")
 
-            Map(coordinateRegion: $manager.region,
+            Map(coordinateRegion: $region,
                 showsUserLocation: true,
                 userTrackingMode: $trackingMode)
                 .clipShape(Circle())
